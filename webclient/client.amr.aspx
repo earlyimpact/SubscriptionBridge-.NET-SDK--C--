@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UI.master" AutoEventWireup="false" CodeFile="client.amr.aspx.cs" Inherits="_client_amr" %>
+﻿<%@ Page Title="" validateRequest="false" Language="C#" MasterPageFile="~/UI.master" AutoEventWireup="false" CodeFile="client.amr.aspx.cs" Inherits="_client_amr" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -74,8 +74,7 @@
         </tr>
         <tr>
             <td colspan="2">
-                <asp:Button ID="Button1" runat="server" Text="Submit" class="sbFormButton" 
-                    onclick="Button1_Click1" />
+                <asp:Button ID="Button1" runat="server" Text="Submit" class="sbFormButton" />
             </td>
         </tr>
         <tr>

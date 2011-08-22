@@ -44,9 +44,9 @@ partial class _client_vac : BasePage
 
         if (strResponse.IndexOf("Success") != -1)
         {
-            //Dim strParam As String
-            //strParam = XMLExchangeObj.xEval(strResponse, "AddMeteredResponse/Ack")
-            //Results.Text = strParam
+            // string strParam = null;
+            // strParam = XMLExchangeObj.xEval(strResponse, "VerifyAccountCredentialsResponse/Ack");
+            // Results.Text = strParam;
 
             Results.Text = strResponse;
 

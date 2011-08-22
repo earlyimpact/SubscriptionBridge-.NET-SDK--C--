@@ -21,7 +21,7 @@ namespace SubscriptionBridge
         protected override void OnError(System.EventArgs e)
         {
             //// Redirect to Generic Error
-            Response.Redirect("/500.asp", false);
+            Response.Redirect("/500.aspx", false);
 
         }
 
