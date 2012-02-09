@@ -138,6 +138,22 @@ namespace SubscriptionBridge
 
             return Token;
         }
+
+
+        public static string HashString(string strToHash, string strMerchantKey)
+        {
+            string Hash = null;
+
+            SubscriptionAPI SubscriptionAPIObj = new SubscriptionAPI();
+            string dt = SubscriptionAPIObj.GetTimeRequest();
+
+            Hash = strToHash;
+            Hash = hex_hmac_sha1(strMerchantKey, Hash);
+
+            return Hash;
+        }
+
+
     }
 
 

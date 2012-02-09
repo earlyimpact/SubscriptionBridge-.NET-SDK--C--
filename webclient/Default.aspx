@@ -6,6 +6,13 @@
 
 <h1>Kitchen Sink Demo</h1>
 
+
+            <h2>JavaScript API</h2>
+			<ul>
+            	<li><a href="client.otp.aspx" target="_blank">Onetime Payment (EIG)</a></li>
+                <li><a href="client.ubi.aspx" target="_blank">Update Billing Info (EIG)</a></li>
+            </ul>
+
             <h2>Hosted Checkout</h2>
 			<ul>
             	<li><a href="client.hcb.aspx" target="_blank">Subscribe Button</a></li>
